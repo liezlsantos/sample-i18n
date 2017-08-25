@@ -1,0 +1,16 @@
+# npm
+/node_modules/
+/aot/node_modules/ 
+/npm-debug.log
+
+# build files
+/src/build*.js
+*.map
+*.ngfactory.*
+/src/app/*.js
+/src/app/*.json
+/src/app/*.map
+
+# translations
+/locale/*.xlf
+

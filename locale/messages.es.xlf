@@ -6,11 +6,9 @@
         <source>Hello world!</source>
         <target>¡Hola world!</target>
       </trans-unit>
-      <trans-unit id="a848066bd13b6e213876f51e9f270aaf93955e5b" datatype="html">
-        <source>Good day.</source>
+      <trans-unit id="ee15401229969d34e508d265e6c1ceb6bc53ac56" datatype="html">
+        <source>Good morning!</source>
         <target>¡Buenos días!</target>
-        <note priority="1" from="description">desc@id</note>
-        <note priority="1" from="meaning">meaning</note>
       </trans-unit>
     </body>
   </file>

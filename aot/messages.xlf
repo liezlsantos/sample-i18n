@@ -8,7 +8,6 @@
           <context context-type="sourcefile">src/app/app.component.ts</context>
           <context context-type="linenumber">1</context>
         </context-group>
-        <target>Kumusta!</target>
       </trans-unit>
       <trans-unit id="ee15401229969d34e508d265e6c1ceb6bc53ac56" datatype="html">
         <source>Good morning!</source>
@@ -18,7 +17,6 @@
         </context-group>
         <note priority="1" from="description">desc@id</note>
         <note priority="1" from="meaning">meaning</note>
-        <target>Magandang Umaga!</target>
       </trans-unit>
       <trans-unit id="cff5cf1a8fa092850a7c05e811e38a7d93152138" datatype="html">
         <source>Please input your name</source>
@@ -26,7 +24,6 @@
           <context context-type="sourcefile">src/app/app.component.ts</context>
           <context context-type="linenumber">3</context>
         </context-group>
-        <target>Ilagay ang iyong pangalan</target>
       </trans-unit>
     </body>
   </file>
