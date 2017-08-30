@@ -2,31 +2,55 @@
 <xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
   <file source-language="en" datatype="plaintext" original="ng2.template">
     <body>
-      <trans-unit id="801ebd128d066af165032908048bf85435e62e0a" datatype="html">
-        <source>Hello world!</source>
+      <trans-unit id="customID" datatype="html">
+        <target>
+Ang graphic design ay tumutukoy sa pagpaplano at pagpapahatid ng biswal na komunikasyon sa pamamagitan ng paggamit ng mga imahe, mga salita, espasyo, palalimbagan o mga font at iba't ibang kulay. Ang graphic design ay isang kritikal na elemento sa proseso ng komunikasyon o pagdisenyo ng isang produkto at paglikha nito.
+</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/app.component.ts</context>
-          <context context-type="linenumber">1</context>
+          <context context-type="linenumber">6</context>
         </context-group>
-        <target>Kumusta!</target>
+        <note priority="1" from="description">sample text with custom ID</note>
+        <note priority="1" from="meaning">sample_text</note>
       </trans-unit>
-      <trans-unit id="ee15401229969d34e508d265e6c1ceb6bc53ac56" datatype="html">
-        <source>Good morning!</source>
+      <trans-unit id="43b92b2ccda7a2a6ed92d8401620c3704b8deb5a" datatype="html">
+        <target>Maglagay ng text dito</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/app.component.ts</context>
-          <context context-type="linenumber">2</context>
+          <context context-type="linenumber">14</context>
         </context-group>
-        <note priority="1" from="description">desc@id</note>
-        <note priority="1" from="meaning">meaning</note>
-        <target>Magandang Umaga!</target>
+        <note priority="1" from="description">placeholder for a text input field</note>
       </trans-unit>
-      <trans-unit id="cff5cf1a8fa092850a7c05e811e38a7d93152138" datatype="html">
-        <source>Please input your name</source>
+      <trans-unit id="10017bb749563db2539f2fe11ab33c3693294dc2" datatype="html">
+        <target>Ang text na ito ay may <x id="ICU"/>.</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/app.component.ts</context>
-          <context context-type="linenumber">3</context>
+          <context context-type="linenumber">20</context>
         </context-group>
-        <target>Ilagay ang iyong pangalan</target>
+      </trans-unit>
+      <trans-unit id="e7516b4289a149d7842e6d16052079e0576128b1" datatype="html">
+        <target>{VAR_PLURAL, plural, =1 {isang character} =2 {dalawang character} other {<x id="INTERPOLATION"/> na mga character} }</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/app.component.ts</context>
+          <context context-type="linenumber">20</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="1cd146f99c69cc3b49141fc9e66b4a2a2725ca4c" datatype="html">
+        <target>
+<x id="START_BOLD_TEXT" ctype="x-b"/>Titulo ng Proyekto:<x id="CLOSE_BOLD_TEXT" ctype="x-b"/> <x id="INTERPOLATION"/> <x id="LINE_BREAK" ctype="lb"/>
+<x id="START_BOLD_TEXT" ctype="x-b"/>Estado ng Proyekto:<x id="CLOSE_BOLD_TEXT" ctype="x-b"/> <x id="ICU"/>
+</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/app.component.ts</context>
+          <context context-type="linenumber">26</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="0f402a022f376bb3386008610b9fc841125485bf" datatype="html">
+        <target>{VAR_SELECT, select, a {Na-award Na} o {Bukas} c {Sarado} p {Nakabinbin} }</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/app.component.ts</context>
+          <context context-type="linenumber">28</context>
+        </context-group>
       </trans-unit>
     </body>
   </file>

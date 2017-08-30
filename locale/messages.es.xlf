@@ -2,13 +2,55 @@
 <xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
   <file source-language="en" datatype="plaintext" original="ng2.template">
     <body>
-      <trans-unit id="801ebd128d066af165032908048bf85435e62e0a" datatype="html">
-        <source>Hello world!</source>
-        <target>¡Hola world!</target>
+      <trans-unit id="customID" datatype="html">
+        <target>
+El diseño gráfico se refiere a la planificación y proyección de la comunicación visual mediante el uso de imágenes, palabras, el espacio, tipografía o fuentes y el color palettes. El diseño gráfico es un elemento crítico del proceso de comunicación o diseño y creación de un producto.
+</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/app.component.ts</context>
+          <context context-type="linenumber">6</context>
+        </context-group>
+        <note priority="1" from="description">sample text with custom ID</note>
+        <note priority="1" from="meaning">sample_text</note>
       </trans-unit>
-      <trans-unit id="ee15401229969d34e508d265e6c1ceb6bc53ac56" datatype="html">
-        <source>Good morning!</source>
-        <target>¡Buenos días!</target>
+      <trans-unit id="43b92b2ccda7a2a6ed92d8401620c3704b8deb5a" datatype="html">
+        <target>Texto de entrada aquí</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/app.component.ts</context>
+          <context context-type="linenumber">14</context>
+        </context-group>
+        <note priority="1" from="description">placeholder for a text input field</note>
+      </trans-unit>
+      <trans-unit id="10017bb749563db2539f2fe11ab33c3693294dc2" datatype="html">
+        <target>Este texto tiene <x id="ICU"/>.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/app.component.ts</context>
+          <context context-type="linenumber">20</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="e7516b4289a149d7842e6d16052079e0576128b1" datatype="html">
+        <target>{VAR_PLURAL, plural, =1 {un carácter} =2 {dos carácteres} other {<x id="INTERPOLATION"/> carácteres} }</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/app.component.ts</context>
+          <context context-type="linenumber">20</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="1cd146f99c69cc3b49141fc9e66b4a2a2725ca4c" datatype="html">
+        <target>
+<x id="START_BOLD_TEXT" ctype="x-b"/>Título del Proyecto:<x id="CLOSE_BOLD_TEXT" ctype="x-b"/> <x id="INTERPOLATION"/> <x id="LINE_BREAK" ctype="lb"/>
+<x id="START_BOLD_TEXT" ctype="x-b"/>Estado del proyecto:<x id="CLOSE_BOLD_TEXT" ctype="x-b"/> <x id="ICU"/>
+</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/app.component.ts</context>
+          <context context-type="linenumber">26</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="0f402a022f376bb3386008610b9fc841125485bf" datatype="html">
+        <target>{VAR_SELECT, select, a {Adjudicado} o {Abiertos} c {Cerrado} p {Pendiente} }</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/app.component.ts</context>
+          <context context-type="linenumber">28</context>
+        </context-group>
       </trans-unit>
     </body>
   </file>

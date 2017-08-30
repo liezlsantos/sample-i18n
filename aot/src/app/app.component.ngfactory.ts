@@ -7,27 +7,192 @@
 
 
 import * as i0 from '@angular/core';
-import * as i1 from '../../../src/app/app.component';
+import * as i1 from '@angular/common';
+import * as i2 from '../../../src/app/app.component';
 const styles_AppComponent:any[] = ([] as any[]);
 export const RenderType_AppComponent:i0.RendererType2 = i0.ɵcrt({encapsulation:2,styles:styles_AppComponent,
     data:{}});
-export function View_AppComponent_0(_l:any):i0.ɵViewDefinition {
-  return i0.ɵvid(0,[(_l()(),i0.ɵeld(0,(null as any),(null as any),1,'h1',([] as any[]),
+function View_AppComponent_2(_l:any):i0.ɵViewDefinition {
+  return i0.ɵvid(0,[(_l()(),i0.ɵted((null as any),['un carácter']))],(null as any),
+      (null as any));
+}
+function View_AppComponent_3(_l:any):i0.ɵViewDefinition {
+  return i0.ɵvid(0,[(_l()(),i0.ɵted((null as any),['dos carácteres']))],(null as any),
+      (null as any));
+}
+function View_AppComponent_4(_l:any):i0.ɵViewDefinition {
+  return i0.ɵvid(0,[(_l()(),i0.ɵted((null as any),['',' carácteres']))],(null as any),
+      (_ck,_v) => {
+        var _co:any = _v.component;
+        const currVal_0:any = _co.charCount;
+        _ck(_v,0,0,currVal_0);
+      });
+}
+function View_AppComponent_1(_l:any):i0.ɵViewDefinition {
+  return i0.ɵvid(0,[(_l()(),i0.ɵeld(0,(null as any),(null as any),10,'div',([] as any[]),
       (null as any),(null as any),(null as any),(null as any),(null as any))),(_l()(),
-      i0.ɵted((null as any),['¡Hola world!'])),(_l()(),i0.ɵted((null as any),['\n'])),
-      (_l()(),i0.ɵeld(0,(null as any),(null as any),1,'p',([] as any[]),(null as any),
-          (null as any),(null as any),(null as any),(null as any))),(_l()(),i0.ɵted((null as any),
-          ['¡Buenos días!'])),(_l()(),i0.ɵted((null as any),['\n'])),(_l()(),i0.ɵeld(0,
-          (null as any),(null as any),0,'input',[['placeholder','Please input your name']],
-          (null as any),(null as any),(null as any),(null as any),(null as any)))],
+      i0.ɵted((null as any),['Este texto tiene '])),(_l()(),i0.ɵeld(0,(null as any),
+      (null as any),7,(null as any),(null as any),(null as any),(null as any),(null as any),
+      (null as any),(null as any))),i0.ɵdid(16384,(null as any),0,i1.NgPlural,[i1.NgLocalization],
+      {ngPlural:[0,'ngPlural']},(null as any)),(_l()(),i0.ɵand(16777216,(null as any),
+      (null as any),1,(null as any),View_AppComponent_2)),i0.ɵdid(16384,(null as any),
+      0,i1.NgPluralCase,[[8,'=1'],i0.TemplateRef,i0.ViewContainerRef,i1.NgPlural],
+      (null as any),(null as any)),(_l()(),i0.ɵand(16777216,(null as any),(null as any),
+      1,(null as any),View_AppComponent_3)),i0.ɵdid(16384,(null as any),0,i1.NgPluralCase,
+      [[8,'=2'],i0.TemplateRef,i0.ViewContainerRef,i1.NgPlural],(null as any),(null as any)),
+      (_l()(),i0.ɵand(16777216,(null as any),(null as any),1,(null as any),View_AppComponent_4)),
+      i0.ɵdid(16384,(null as any),0,i1.NgPluralCase,[[8,'other'],i0.TemplateRef,i0.ViewContainerRef,
+          i1.NgPlural],(null as any),(null as any)),(_l()(),i0.ɵted((null as any),
+          ['.']))],(_ck,_v) => {
+    var _co:any = _v.component;
+    const currVal_0:any = _co.charCount;
+    _ck(_v,3,0,currVal_0);
+  },(null as any));
+}
+function View_AppComponent_5(_l:any):i0.ɵViewDefinition {
+  return i0.ɵvid(0,[(_l()(),i0.ɵeld(0,(null as any),(null as any),1,'i',([] as any[]),
+      (null as any),(null as any),(null as any),(null as any),(null as any))),(_l()(),
+      i0.ɵted((null as any),['Type something on the input field above to test if this works.']))],
       (null as any),(null as any));
+}
+function View_AppComponent_6(_l:any):i0.ɵViewDefinition {
+  return i0.ɵvid(0,[(_l()(),i0.ɵted((null as any),['Adjudicado']))],(null as any),
+      (null as any));
+}
+function View_AppComponent_7(_l:any):i0.ɵViewDefinition {
+  return i0.ɵvid(0,[(_l()(),i0.ɵted((null as any),['Abiertos']))],(null as any),(null as any));
+}
+function View_AppComponent_8(_l:any):i0.ɵViewDefinition {
+  return i0.ɵvid(0,[(_l()(),i0.ɵted((null as any),['Cerrado']))],(null as any),(null as any));
+}
+function View_AppComponent_9(_l:any):i0.ɵViewDefinition {
+  return i0.ɵvid(0,[(_l()(),i0.ɵted((null as any),['Pendiente']))],(null as any),(null as any));
+}
+export function View_AppComponent_0(_l:any):i0.ɵViewDefinition {
+  return i0.ɵvid(0,[(_l()(),i0.ɵted((null as any),['\n'])),(_l()(),i0.ɵeld(0,(null as any),
+      (null as any),1,'h1',([] as any[]),(null as any),(null as any),(null as any),
+      (null as any),(null as any))),(_l()(),i0.ɵted((null as any),['Angular Internalionalization (i18n)'])),
+      (_l()(),i0.ɵted((null as any),['\n\n'])),(_l()(),i0.ɵted((null as any),['\n'])),
+      (_l()(),i0.ɵeld(0,(null as any),(null as any),1,'h3',([] as any[]),(null as any),
+          (null as any),(null as any),(null as any),(null as any))),(_l()(),i0.ɵted((null as any),
+          ['Simple Text'])),(_l()(),i0.ɵted((null as any),['\n'])),(_l()(),i0.ɵeld(0,
+          (null as any),(null as any),1,'div',([] as any[]),(null as any),(null as any),
+          (null as any),(null as any),(null as any))),(_l()(),i0.ɵted((null as any),
+          ['\nEl diseño gráfico se refiere a la planificación y proyección de la comunicación visual mediante el uso de imágenes, palabras, el espacio, tipografía o fuentes y el color palettes. El diseño gráfico es un elemento crítico del proceso de comunicación o diseño y creación de un producto.\n'])),
+      (_l()(),i0.ɵted((null as any),['\n'])),(_l()(),i0.ɵeld(0,(null as any),(null as any),
+          0,'hr',([] as any[]),(null as any),(null as any),(null as any),(null as any),
+          (null as any))),(_l()(),i0.ɵted((null as any),['\n\n'])),(_l()(),i0.ɵeld(0,
+          (null as any),(null as any),1,'h3',([] as any[]),(null as any),(null as any),
+          (null as any),(null as any),(null as any))),(_l()(),i0.ɵted((null as any),
+          ['Attribute'])),(_l()(),i0.ɵted((null as any),['\n'])),(_l()(),i0.ɵeld(0,
+          (null as any),(null as any),4,'div',([] as any[]),(null as any),(null as any),
+          (null as any),(null as any),(null as any))),(_l()(),i0.ɵted((null as any),
+          ['\n'])),(_l()(),i0.ɵted((null as any),['\n'])),(_l()(),i0.ɵeld(0,(null as any),
+          (null as any),0,'input',[['placeholder','Texto de entrada aquí']],(null as any),
+          [[(null as any),'change']],(_v,en,$event) => {
+            var ad:boolean = true;
+            var _co:i2.AppComponent = _v.component;
+            if (('change' === en)) {
+              const pd_0:any = ((<any>_co.updateCharCount($event.target.value)) !== false);
+              ad = (pd_0 && ad);
+            }
+            return ad;
+          },(null as any),(null as any))),(_l()(),i0.ɵted((null as any),['\n'])),(_l()(),
+          i0.ɵeld(0,(null as any),(null as any),0,'br',([] as any[]),(null as any),
+              (null as any),(null as any),(null as any),(null as any))),(_l()(),i0.ɵted((null as any),
+          ['\n'])),(_l()(),i0.ɵeld(0,(null as any),(null as any),0,'hr',([] as any[]),
+          (null as any),(null as any),(null as any),(null as any),(null as any))),
+      (_l()(),i0.ɵted((null as any),['\n\n'])),(_l()(),i0.ɵeld(0,(null as any),(null as any),
+          1,'h3',([] as any[]),(null as any),(null as any),(null as any),(null as any),
+          (null as any))),(_l()(),i0.ɵted((null as any),['Pluralization'])),(_l()(),
+          i0.ɵted((null as any),['\n'])),(_l()(),i0.ɵted((null as any),['\n'])),(_l()(),
+          i0.ɵand(16777216,(null as any),(null as any),1,(null as any),View_AppComponent_1)),
+      i0.ɵdid(16384,(null as any),0,i1.NgIf,[i0.ViewContainerRef,i0.TemplateRef],{ngIf:[0,
+          'ngIf'],ngIfElse:[1,'ngIfElse']},(null as any)),(_l()(),i0.ɵted((null as any),
+          ['\n'])),(_l()(),i0.ɵand(0,[['elseBlock',2]],(null as any),0,(null as any),
+          View_AppComponent_5)),(_l()(),i0.ɵted((null as any),['\n'])),(_l()(),i0.ɵeld(0,
+          (null as any),(null as any),0,'hr',([] as any[]),(null as any),(null as any),
+          (null as any),(null as any),(null as any))),(_l()(),i0.ɵted((null as any),
+          ['\n\n'])),(_l()(),i0.ɵeld(0,(null as any),(null as any),1,'h3',([] as any[]),
+          (null as any),(null as any),(null as any),(null as any),(null as any))),
+      (_l()(),i0.ɵted((null as any),['Select'])),(_l()(),i0.ɵted((null as any),['\n'])),
+      (_l()(),i0.ɵted((null as any),['\n'])),(_l()(),i0.ɵeld(0,(null as any),(null as any),
+          20,'div',([] as any[]),(null as any),(null as any),(null as any),(null as any),
+          (null as any))),(_l()(),i0.ɵted((null as any),['\n'])),(_l()(),i0.ɵeld(0,
+          (null as any),(null as any),1,'b',([] as any[]),(null as any),(null as any),
+          (null as any),(null as any),(null as any))),(_l()(),i0.ɵted((null as any),
+          ['Título del Proyecto:'])),(_l()(),i0.ɵted((null as any),[' ',' '])),(_l()(),
+          i0.ɵeld(0,(null as any),(null as any),0,'br',([] as any[]),(null as any),
+              (null as any),(null as any),(null as any),(null as any))),(_l()(),i0.ɵted((null as any),
+          ['\n'])),(_l()(),i0.ɵeld(0,(null as any),(null as any),1,'b',([] as any[]),
+          (null as any),(null as any),(null as any),(null as any),(null as any))),
+      (_l()(),i0.ɵted((null as any),['Estado del proyecto:'])),(_l()(),i0.ɵted((null as any),
+          [' '])),(_l()(),i0.ɵeld(0,(null as any),(null as any),9,(null as any),(null as any),
+          (null as any),(null as any),(null as any),(null as any),(null as any))),
+      i0.ɵdid(16384,(null as any),0,i1.NgSwitch,([] as any[]),{ngSwitch:[0,'ngSwitch']},
+          (null as any)),(_l()(),i0.ɵand(16777216,(null as any),(null as any),1,(null as any),
+          View_AppComponent_6)),i0.ɵdid(278528,(null as any),0,i1.NgSwitchCase,[i0.ViewContainerRef,
+          i0.TemplateRef,i1.NgSwitch],{ngSwitchCase:[0,'ngSwitchCase']},(null as any)),
+      (_l()(),i0.ɵand(16777216,(null as any),(null as any),1,(null as any),View_AppComponent_7)),
+      i0.ɵdid(278528,(null as any),0,i1.NgSwitchCase,[i0.ViewContainerRef,i0.TemplateRef,
+          i1.NgSwitch],{ngSwitchCase:[0,'ngSwitchCase']},(null as any)),(_l()(),i0.ɵand(16777216,
+          (null as any),(null as any),1,(null as any),View_AppComponent_8)),i0.ɵdid(278528,
+          (null as any),0,i1.NgSwitchCase,[i0.ViewContainerRef,i0.TemplateRef,i1.NgSwitch],
+          {ngSwitchCase:[0,'ngSwitchCase']},(null as any)),(_l()(),i0.ɵand(16777216,
+          (null as any),(null as any),1,(null as any),View_AppComponent_9)),i0.ɵdid(278528,
+          (null as any),0,i1.NgSwitchCase,[i0.ViewContainerRef,i0.TemplateRef,i1.NgSwitch],
+          {ngSwitchCase:[0,'ngSwitchCase']},(null as any)),(_l()(),i0.ɵted((null as any),
+          ['\n'])),(_l()(),i0.ɵted((null as any),['\n\n'])),(_l()(),i0.ɵeld(0,(null as any),
+          (null as any),0,'br',([] as any[]),(null as any),(null as any),(null as any),
+          (null as any),(null as any))),(_l()(),i0.ɵted((null as any),['\n'])),(_l()(),
+          i0.ɵeld(0,(null as any),(null as any),13,'select',([] as any[]),(null as any),
+              [[(null as any),'change']],(_v,en,$event) => {
+                var ad:boolean = true;
+                var _co:i2.AppComponent = _v.component;
+                if (('change' === en)) {
+                  const pd_0:any = ((<any>_co.updateProjectStatus($event.target.value)) !== false);
+                  ad = (pd_0 && ad);
+                }
+                return ad;
+              },(null as any),(null as any))),(_l()(),i0.ɵted((null as any),['\n  '])),
+      (_l()(),i0.ɵeld(0,(null as any),(null as any),1,'option',[['value','o']],(null as any),
+          (null as any),(null as any),(null as any),(null as any))),(_l()(),i0.ɵted((null as any),
+          ['Open'])),(_l()(),i0.ɵted((null as any),['\n  '])),(_l()(),i0.ɵeld(0,(null as any),
+          (null as any),1,'option',[['value','p']],(null as any),(null as any),(null as any),
+          (null as any),(null as any))),(_l()(),i0.ɵted((null as any),['Pending'])),
+      (_l()(),i0.ɵted((null as any),['\n  '])),(_l()(),i0.ɵeld(0,(null as any),(null as any),
+          1,'option',[['value','a']],(null as any),(null as any),(null as any),(null as any),
+          (null as any))),(_l()(),i0.ɵted((null as any),['Awarded'])),(_l()(),i0.ɵted((null as any),
+          ['\n  '])),(_l()(),i0.ɵeld(0,(null as any),(null as any),1,'option',[['value',
+          'c']],(null as any),(null as any),(null as any),(null as any),(null as any))),
+      (_l()(),i0.ɵted((null as any),['Closed'])),(_l()(),i0.ɵted((null as any),['\n'])),
+      (_l()(),i0.ɵted((null as any),['\n']))],(_ck,_v) => {
+    var _co:i2.AppComponent = _v.component;
+    const currVal_0:any = _co.charCount;
+    const currVal_1:any = i0.ɵnov(_v,32);
+    _ck(_v,30,0,currVal_0,currVal_1);
+    const currVal_3:any = _co.projectStatusCode;
+    _ck(_v,51,0,currVal_3);
+    const currVal_4:any = 'a';
+    _ck(_v,53,0,currVal_4);
+    const currVal_5:any = 'o';
+    _ck(_v,55,0,currVal_5);
+    const currVal_6:any = 'c';
+    _ck(_v,57,0,currVal_6);
+    const currVal_7:any = 'p';
+    _ck(_v,59,0,currVal_7);
+  },(_ck,_v) => {
+    var _co:i2.AppComponent = _v.component;
+    const currVal_2:any = _co.projectTitle;
+    _ck(_v,44,0,currVal_2);
+  });
 }
 export function View_AppComponent_Host_0(_l:any):i0.ɵViewDefinition {
   return i0.ɵvid(0,[(_l()(),i0.ɵeld(0,(null as any),(null as any),1,'my-app',([] as any[]),
       (null as any),(null as any),(null as any),View_AppComponent_0,RenderType_AppComponent)),
-      i0.ɵdid(49152,(null as any),0,i1.AppComponent,([] as any[]),(null as any),(null as any))],
+      i0.ɵdid(49152,(null as any),0,i2.AppComponent,([] as any[]),(null as any),(null as any))],
       (null as any),(null as any));
 }
-export const AppComponentNgFactory:i0.ComponentFactory<i1.AppComponent> = i0.ɵccf('my-app',
-    i1.AppComponent,View_AppComponent_Host_0,{},{},([] as any[]));
-//# sourceMappingURL=data:application/json;base64,eyJmaWxlIjoiL2hvbWUvbGllemxzYW50b3MvcHJvamVjdC9zYW1wbGUtaTE4bi9zcmMvYXBwL2FwcC5jb21wb25lbnQubmdmYWN0b3J5LnRzIiwidmVyc2lvbiI6Mywic291cmNlUm9vdCI6IiIsInNvdXJjZXMiOlsibmc6Ly8vaG9tZS9saWV6bHNhbnRvcy9wcm9qZWN0L3NhbXBsZS1pMThuL3NyYy9hcHAvYXBwLmNvbXBvbmVudC50cyIsIm5nOi8vL2hvbWUvbGllemxzYW50b3MvcHJvamVjdC9zYW1wbGUtaTE4bi9zcmMvYXBwL2FwcC5jb21wb25lbnQuaHRtbCIsIm5nOi8vL2hvbWUvbGllemxzYW50b3MvcHJvamVjdC9zYW1wbGUtaTE4bi9zcmMvYXBwL2FwcC5jb21wb25lbnQudHMuQXBwQ29tcG9uZW50X0hvc3QuaHRtbCJdLCJzb3VyY2VzQ29udGVudCI6WyIgIiwiPGgxIGkxOG4+SGVsbG8gd29ybGQhPC9oMT5cbjxwIGkxOG49XCJtZWFuaW5nfGRlc2NAaWRcIj5Hb29kIG1vcm5pbmchPC9wPlxuPGlucHV0IGkxOG4tcGxhY2Vob2xkZXIgcGxhY2Vob2xkZXI9XCJQbGVhc2UgaW5wdXQgeW91ciBuYW1lXCIvPiIsIjxteS1hcHA+PC9teS1hcHA+Il0sIm1hcHBpbmdzIjoiQUFBQTs7Ozs7Ozs7Ozs7Ozs7b0JDQUE7TUFBQSx3RUFBQTthQUFBLGtDQUEwQjtNQUMxQjtVQUFBLDBEQURBO1VBQUEsb0JBQzJDLHVDQUMzQztVQUFBO1VBQUE7Ozs7b0JDRkE7TUFBQTthQUFBOzs7OyJ9
+export const AppComponentNgFactory:i0.ComponentFactory<i2.AppComponent> = i0.ɵccf('my-app',
+    i2.AppComponent,View_AppComponent_Host_0,{},{},([] as any[]));
+//# sourceMappingURL=data:application/json;base64,eyJmaWxlIjoiL2hvbWUvbGllemxzYW50b3MvcHJvamVjdC9zYW1wbGUtaTE4bi9zcmMvYXBwL2FwcC5jb21wb25lbnQubmdmYWN0b3J5LnRzIiwidmVyc2lvbiI6Mywic291cmNlUm9vdCI6IiIsInNvdXJjZXMiOlsibmc6Ly8vaG9tZS9saWV6bHNhbnRvcy9wcm9qZWN0L3NhbXBsZS1pMThuL3NyYy9hcHAvYXBwLmNvbXBvbmVudC50cyIsIm5nOi8vL2hvbWUvbGllemxzYW50b3MvcHJvamVjdC9zYW1wbGUtaTE4bi9zcmMvYXBwL2FwcC5jb21wb25lbnQuaHRtbCIsIm5nOi8vL2hvbWUvbGllemxzYW50b3MvcHJvamVjdC9zYW1wbGUtaTE4bi9zcmMvYXBwL2FwcC5jb21wb25lbnQudHMuQXBwQ29tcG9uZW50X0hvc3QuaHRtbCJdLCJzb3VyY2VzQ29udGVudCI6WyIgIiwiRXN0ZSB0ZXh0byB0aWVuZSB7Y2hhckNvdW50LCBwbHVyYWwsID0xIHt1biBjYXLDoWN0ZXJ9ID0yIHtkb3MgY2Fyw6FjdGVyZXN9IG90aGVyIHt7e2NoYXJDb3VudH19IGNhcsOhY3RlcmVzfX0uIiwiPG15LWFwcD48L215LWFwcD4iXSwibWFwcGluZ3MiOiJBQUFBOzs7Ozs7Ozs7Ozs7Ozs7b0JDQXlDOzs7O29CQUFpQjs7OztvQkFBdUI7OztRQUFBO1FBQUE7Ozs7b0JBbUJqRjtNQUFBLHdFQW5CQTthQUFBLHVDQUFpQjtNQUFBO01BQUEscUNBQUE7TUFBQSx5Q0FBb0I7TUFBQSwyREFBQTtNQUFBO01BQUEsNkJBQWlCO01BQUEsNkNBQUE7TUFBQTtNQUFvQjthQUFBO3FCQUFBLCtCQUFpQztVQUFBOztJQUF6RjtJQUFELFdBQUMsU0FBRDs7OztvQkFvQk87TUFBQSx3RUFBRzthQUFBOzs7O29CQWxCZ0M7Ozs7b0JBQWU7OztvQkFBYTs7O29CQUFZOzs7b0JBRm5FLHVDQUNoQztNQUFBO01BQUEsOEJBQUk7TUFBd0MseUNBRXdCO01BQ3BFO1VBQUEsMERBQUk7VUFBQSxrQkFBZ0IsdUNBQ3BCO1VBQUE7VUFBQSw0Q0FMQTtVQUFBO01BT00sdUNBQ047VUFBQTtVQUFBLGdCQUFJLHlDQUVKO1VBQUE7VUFBQSw0Q0FBSTtVQUFBLGdCQUFjLHVDQUNsQjtVQUFBO1VBQUEsNENBQUs7VUFBQSxTQUN3Qyx1Q0FDN0M7VUFBQTtVQUFBO1lBQUE7WUFBQTtZQUFPO2NBQUE7Y0FBQTtZQUFBO1lBQVA7VUFBQSxnQ0FBOEksdUNBQ3hJO2lCQUFBO2NBQUEsMERBQUs7VUFBQSxTQUNYO1VBQUE7TUFBSSx5Q0FFSjtVQUFBO1VBQUEsZ0JBQUksa0RBQWtCO2lCQUFBLHdCQUMrQix1Q0FDckQ7aUJBQUE7YUFBQTtVQUFBLGdEQUE2SjtVQUFBLFNBQzdKO1VBQUEsc0JBQTJHLHVDQUMzRztVQUFBO1VBQUEsNENBQUk7VUFBQSxXQUVKO1VBQUE7TUFBSSwyQ0FBVztNQUN3Qix1Q0FDdkM7VUFBQTtVQUFBLGdCQXpCQSx1Q0FDQTtVQUFBO1VBQUEsNENBQUc7VUFBQSwyQkFBd0IsMENBQWtCO2lCQUFBO2NBQUEsMERBQUs7VUFBQSxTQUNsRDtVQUFBO01BQUcseURBQXdCO1VBQUEsUUFBQztVQUFBO2FBQUE7VUFBQSxlQUE0QjtVQUFBLDZCQUFBO29DQUFBO01BQWU7YUFBQTtxQkFBQSxtREFBYTtVQUFBLHlFQUFBO1VBQUE7VUFBQSxpREFBWTtVQUFBLHlFQUFBO1VBQUE7VUFBQSxpREFBYztVQUFBLFNBMEJ4Ryx5Q0FFTjtVQUFBO1VBQUEsOEJBQUssdUNBQ0w7aUJBQUE7Y0FBQTtnQkFBQTtnQkFBQTtnQkFBUTtrQkFBQTtrQkFBQTtnQkFBQTtnQkFBUjtjQUFBLGdDQUE0RDtNQUMxRDtVQUFBLDBEQUFrQjtVQUFBLFdBQWEseUNBQy9CO1VBQUE7VUFBQSw4QkFBa0I7TUFBZ0IseUNBQ2xDO1VBQUE7VUFBQSxnQkFBa0IsNENBQWdCO1VBQUEsV0FDbEM7VUFBQTtNQUFrQiwyQ0FBZTtNQUMxQjs7SUFqQko7SUFBQTtJQUFMLFlBQUssbUJBQUw7SUFqQjZCO0lBQUQsWUFBQyxTQUFEO0lBQTRCO0lBQUEsWUFBQSxTQUFBO0lBQWU7SUFBQSxZQUFBLFNBQUE7SUFBYTtJQUFBLFlBQUEsU0FBQTtJQUFZO0lBQUEsWUFBQSxTQUFBOzs7SUFEckU7SUFBQTs7OztvQkNEM0I7TUFBQTthQUFBOzs7OyJ9

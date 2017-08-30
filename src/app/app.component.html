@@ -1,3 +1,37 @@
-<h1 i18n>Hello world!</h1>
-<p i18n="meaning|desc@id">Good morning!</p>
-<input i18n-placeholder placeholder="Please input your name"/>
+<!-- non-translatable string -->
+<h1>Angular Internalionalization (i18n)</h1>
+
+<!-- translatable string with meaning, description and custom ID -->
+<h3>Simple Text</h3>
+<div i18n="sample_text|sample text with custom ID@@customID">
+Graphic design refers to the planning and projection of visual communication through the use of imagery, words, space, typography or fonts and color palettes. Graphic design is a critical element in the process of communication or product design and creation.
+</div>
+<hr>
+
+<h3>Attribute</h3>
+<div>
+<!-- translatable attribute (placeholder) -->
+<input (change)="updateCharCount($event.target.value)" i18n-placeholder="placeholder for a text input field" placeholder="Input a text here"/>
+</div><br/>
+<hr>
+
+<h3>Pluralization</h3>
+<!-- translatable string with pluralization rules -->
+<div *ngIf="charCount; else elseBlock" i18n>This text has {charCount, plural, =1 {one character} =2 {two characters} other {{{charCount}} characters}}.</div>
+<ng-template #elseBlock><i>Type something on the input field above to test if this works.</i></ng-template>
+<hr>
+
+<h3>Select</h3>
+<!-- translation string with select -->
+<div i18n>
+<b>Project Title:</b> {{projectTitle}} <br/>
+<b>Project Status:</b> {projectStatusCode, select, a {Awarded} o {Open} c {Closed} p {Pending} }
+</div>
+
+<br/>
+<select (change)="updateProjectStatus($event.target.value)">
+  <option value="o">Open</option>
+  <option value="p">Pending</option>
+  <option value="a">Awarded</option>
+  <option value="c">Closed</option>
+</select>

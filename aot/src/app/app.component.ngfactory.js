@@ -5,18 +5,116 @@
  */
 /* tslint:disable */
 import * as i0 from '@angular/core';
-import * as i1 from '../../../src/app/app.component';
+import * as i1 from '@angular/common';
+import * as i2 from '../../../src/app/app.component';
 var styles_AppComponent = [];
 export var RenderType_AppComponent = i0.ɵcrt({ encapsulation: 2, styles: styles_AppComponent,
     data: {} });
+function View_AppComponent_2(_l) {
+    return i0.ɵvid(0, [(_l()(), i0.ɵted(null, ['un carácter']))], null, null);
+}
+function View_AppComponent_3(_l) {
+    return i0.ɵvid(0, [(_l()(), i0.ɵted(null, ['dos carácteres']))], null, null);
+}
+function View_AppComponent_4(_l) {
+    return i0.ɵvid(0, [(_l()(), i0.ɵted(null, ['', ' carácteres']))], null, function (_ck, _v) {
+        var _co = _v.component;
+        var currVal_0 = _co.charCount;
+        _ck(_v, 0, 0, currVal_0);
+    });
+}
+function View_AppComponent_1(_l) {
+    return i0.ɵvid(0, [(_l()(), i0.ɵeld(0, null, null, 10, 'div', [], null, null, null, null, null)), (_l()(),
+            i0.ɵted(null, ['Este texto tiene '])), (_l()(), i0.ɵeld(0, null, null, 7, null, null, null, null, null, null, null)), i0.ɵdid(16384, null, 0, i1.NgPlural, [i1.NgLocalization], { ngPlural: [0, 'ngPlural'] }, null), (_l()(), i0.ɵand(16777216, null, null, 1, null, View_AppComponent_2)), i0.ɵdid(16384, null, 0, i1.NgPluralCase, [[8, '=1'], i0.TemplateRef, i0.ViewContainerRef, i1.NgPlural], null, null), (_l()(), i0.ɵand(16777216, null, null, 1, null, View_AppComponent_3)), i0.ɵdid(16384, null, 0, i1.NgPluralCase, [[8, '=2'], i0.TemplateRef, i0.ViewContainerRef, i1.NgPlural], null, null),
+        (_l()(), i0.ɵand(16777216, null, null, 1, null, View_AppComponent_4)),
+        i0.ɵdid(16384, null, 0, i1.NgPluralCase, [[8, 'other'], i0.TemplateRef, i0.ViewContainerRef,
+            i1.NgPlural], null, null), (_l()(), i0.ɵted(null, ['.']))], function (_ck, _v) {
+        var _co = _v.component;
+        var currVal_0 = _co.charCount;
+        _ck(_v, 3, 0, currVal_0);
+    }, null);
+}
+function View_AppComponent_5(_l) {
+    return i0.ɵvid(0, [(_l()(), i0.ɵeld(0, null, null, 1, 'i', [], null, null, null, null, null)), (_l()(),
+            i0.ɵted(null, ['Type something on the input field above to test if this works.']))], null, null);
+}
+function View_AppComponent_6(_l) {
+    return i0.ɵvid(0, [(_l()(), i0.ɵted(null, ['Adjudicado']))], null, null);
+}
+function View_AppComponent_7(_l) {
+    return i0.ɵvid(0, [(_l()(), i0.ɵted(null, ['Abiertos']))], null, null);
+}
+function View_AppComponent_8(_l) {
+    return i0.ɵvid(0, [(_l()(), i0.ɵted(null, ['Cerrado']))], null, null);
+}
+function View_AppComponent_9(_l) {
+    return i0.ɵvid(0, [(_l()(), i0.ɵted(null, ['Pendiente']))], null, null);
+}
 export function View_AppComponent_0(_l) {
-    return i0.ɵvid(0, [(_l()(), i0.ɵeld(0, null, null, 1, 'h1', [], null, null, null, null, null)), (_l()(),
-            i0.ɵted(null, ['¡Hola world!'])), (_l()(), i0.ɵted(null, ['\n'])),
-        (_l()(), i0.ɵeld(0, null, null, 1, 'p', [], null, null, null, null, null)), (_l()(), i0.ɵted(null, ['¡Buenos días!'])), (_l()(), i0.ɵted(null, ['\n'])), (_l()(), i0.ɵeld(0, null, null, 0, 'input', [['placeholder', 'Please input your name']], null, null, null, null, null))], null, null);
+    return i0.ɵvid(0, [(_l()(), i0.ɵted(null, ['\n'])), (_l()(), i0.ɵeld(0, null, null, 1, 'h1', [], null, null, null, null, null)), (_l()(), i0.ɵted(null, ['Angular Internalionalization (i18n)'])),
+        (_l()(), i0.ɵted(null, ['\n\n'])), (_l()(), i0.ɵted(null, ['\n'])),
+        (_l()(), i0.ɵeld(0, null, null, 1, 'h3', [], null, null, null, null, null)), (_l()(), i0.ɵted(null, ['Simple Text'])), (_l()(), i0.ɵted(null, ['\n'])), (_l()(), i0.ɵeld(0, null, null, 1, 'div', [], null, null, null, null, null)), (_l()(), i0.ɵted(null, ['\nEl diseño gráfico se refiere a la planificación y proyección de la comunicación visual mediante el uso de imágenes, palabras, el espacio, tipografía o fuentes y el color palettes. El diseño gráfico es un elemento crítico del proceso de comunicación o diseño y creación de un producto.\n'])),
+        (_l()(), i0.ɵted(null, ['\n'])), (_l()(), i0.ɵeld(0, null, null, 0, 'hr', [], null, null, null, null, null)), (_l()(), i0.ɵted(null, ['\n\n'])), (_l()(), i0.ɵeld(0, null, null, 1, 'h3', [], null, null, null, null, null)), (_l()(), i0.ɵted(null, ['Attribute'])), (_l()(), i0.ɵted(null, ['\n'])), (_l()(), i0.ɵeld(0, null, null, 4, 'div', [], null, null, null, null, null)), (_l()(), i0.ɵted(null, ['\n'])), (_l()(), i0.ɵted(null, ['\n'])), (_l()(), i0.ɵeld(0, null, null, 0, 'input', [['placeholder', 'Texto de entrada aquí']], null, [[null, 'change']], function (_v, en, $event) {
+            var ad = true;
+            var _co = _v.component;
+            if (('change' === en)) {
+                var pd_0 = (_co.updateCharCount($event.target.value) !== false);
+                ad = (pd_0 && ad);
+            }
+            return ad;
+        }, null, null)), (_l()(), i0.ɵted(null, ['\n'])), (_l()(),
+            i0.ɵeld(0, null, null, 0, 'br', [], null, null, null, null, null)), (_l()(), i0.ɵted(null, ['\n'])), (_l()(), i0.ɵeld(0, null, null, 0, 'hr', [], null, null, null, null, null)),
+        (_l()(), i0.ɵted(null, ['\n\n'])), (_l()(), i0.ɵeld(0, null, null, 1, 'h3', [], null, null, null, null, null)), (_l()(), i0.ɵted(null, ['Pluralization'])), (_l()(),
+            i0.ɵted(null, ['\n'])), (_l()(), i0.ɵted(null, ['\n'])), (_l()(),
+            i0.ɵand(16777216, null, null, 1, null, View_AppComponent_1)),
+        i0.ɵdid(16384, null, 0, i1.NgIf, [i0.ViewContainerRef, i0.TemplateRef], { ngIf: [0,
+                'ngIf'], ngIfElse: [1, 'ngIfElse'] }, null), (_l()(), i0.ɵted(null, ['\n'])), (_l()(), i0.ɵand(0, [['elseBlock', 2]], null, 0, null, View_AppComponent_5)), (_l()(), i0.ɵted(null, ['\n'])), (_l()(), i0.ɵeld(0, null, null, 0, 'hr', [], null, null, null, null, null)), (_l()(), i0.ɵted(null, ['\n\n'])), (_l()(), i0.ɵeld(0, null, null, 1, 'h3', [], null, null, null, null, null)),
+        (_l()(), i0.ɵted(null, ['Select'])), (_l()(), i0.ɵted(null, ['\n'])),
+        (_l()(), i0.ɵted(null, ['\n'])), (_l()(), i0.ɵeld(0, null, null, 20, 'div', [], null, null, null, null, null)), (_l()(), i0.ɵted(null, ['\n'])), (_l()(), i0.ɵeld(0, null, null, 1, 'b', [], null, null, null, null, null)), (_l()(), i0.ɵted(null, ['Título del Proyecto:'])), (_l()(), i0.ɵted(null, [' ', ' '])), (_l()(),
+            i0.ɵeld(0, null, null, 0, 'br', [], null, null, null, null, null)), (_l()(), i0.ɵted(null, ['\n'])), (_l()(), i0.ɵeld(0, null, null, 1, 'b', [], null, null, null, null, null)),
+        (_l()(), i0.ɵted(null, ['Estado del proyecto:'])), (_l()(), i0.ɵted(null, [' '])), (_l()(), i0.ɵeld(0, null, null, 9, null, null, null, null, null, null, null)),
+        i0.ɵdid(16384, null, 0, i1.NgSwitch, [], { ngSwitch: [0, 'ngSwitch'] }, null), (_l()(), i0.ɵand(16777216, null, null, 1, null, View_AppComponent_6)), i0.ɵdid(278528, null, 0, i1.NgSwitchCase, [i0.ViewContainerRef,
+            i0.TemplateRef, i1.NgSwitch], { ngSwitchCase: [0, 'ngSwitchCase'] }, null),
+        (_l()(), i0.ɵand(16777216, null, null, 1, null, View_AppComponent_7)),
+        i0.ɵdid(278528, null, 0, i1.NgSwitchCase, [i0.ViewContainerRef, i0.TemplateRef,
+            i1.NgSwitch], { ngSwitchCase: [0, 'ngSwitchCase'] }, null), (_l()(), i0.ɵand(16777216, null, null, 1, null, View_AppComponent_8)), i0.ɵdid(278528, null, 0, i1.NgSwitchCase, [i0.ViewContainerRef, i0.TemplateRef, i1.NgSwitch], { ngSwitchCase: [0, 'ngSwitchCase'] }, null), (_l()(), i0.ɵand(16777216, null, null, 1, null, View_AppComponent_9)), i0.ɵdid(278528, null, 0, i1.NgSwitchCase, [i0.ViewContainerRef, i0.TemplateRef, i1.NgSwitch], { ngSwitchCase: [0, 'ngSwitchCase'] }, null), (_l()(), i0.ɵted(null, ['\n'])), (_l()(), i0.ɵted(null, ['\n\n'])), (_l()(), i0.ɵeld(0, null, null, 0, 'br', [], null, null, null, null, null)), (_l()(), i0.ɵted(null, ['\n'])), (_l()(),
+            i0.ɵeld(0, null, null, 13, 'select', [], null, [[null, 'change']], function (_v, en, $event) {
+                var ad = true;
+                var _co = _v.component;
+                if (('change' === en)) {
+                    var pd_0 = (_co.updateProjectStatus($event.target.value) !== false);
+                    ad = (pd_0 && ad);
+                }
+                return ad;
+            }, null, null)), (_l()(), i0.ɵted(null, ['\n  '])),
+        (_l()(), i0.ɵeld(0, null, null, 1, 'option', [['value', 'o']], null, null, null, null, null)), (_l()(), i0.ɵted(null, ['Open'])), (_l()(), i0.ɵted(null, ['\n  '])), (_l()(), i0.ɵeld(0, null, null, 1, 'option', [['value', 'p']], null, null, null, null, null)), (_l()(), i0.ɵted(null, ['Pending'])),
+        (_l()(), i0.ɵted(null, ['\n  '])), (_l()(), i0.ɵeld(0, null, null, 1, 'option', [['value', 'a']], null, null, null, null, null)), (_l()(), i0.ɵted(null, ['Awarded'])), (_l()(), i0.ɵted(null, ['\n  '])), (_l()(), i0.ɵeld(0, null, null, 1, 'option', [['value',
+                'c']], null, null, null, null, null)),
+        (_l()(), i0.ɵted(null, ['Closed'])), (_l()(), i0.ɵted(null, ['\n'])),
+        (_l()(), i0.ɵted(null, ['\n']))], function (_ck, _v) {
+        var _co = _v.component;
+        var currVal_0 = _co.charCount;
+        var currVal_1 = i0.ɵnov(_v, 32);
+        _ck(_v, 30, 0, currVal_0, currVal_1);
+        var currVal_3 = _co.projectStatusCode;
+        _ck(_v, 51, 0, currVal_3);
+        var currVal_4 = 'a';
+        _ck(_v, 53, 0, currVal_4);
+        var currVal_5 = 'o';
+        _ck(_v, 55, 0, currVal_5);
+        var currVal_6 = 'c';
+        _ck(_v, 57, 0, currVal_6);
+        var currVal_7 = 'p';
+        _ck(_v, 59, 0, currVal_7);
+    }, function (_ck, _v) {
+        var _co = _v.component;
+        var currVal_2 = _co.projectTitle;
+        _ck(_v, 44, 0, currVal_2);
+    });
 }
 export function View_AppComponent_Host_0(_l) {
     return i0.ɵvid(0, [(_l()(), i0.ɵeld(0, null, null, 1, 'my-app', [], null, null, null, View_AppComponent_0, RenderType_AppComponent)),
-        i0.ɵdid(49152, null, 0, i1.AppComponent, [], null, null)], null, null);
+        i0.ɵdid(49152, null, 0, i2.AppComponent, [], null, null)], null, null);
 }
-export var AppComponentNgFactory = i0.ɵccf('my-app', i1.AppComponent, View_AppComponent_Host_0, {}, {}, []);
+export var AppComponentNgFactory = i0.ɵccf('my-app', i2.AppComponent, View_AppComponent_Host_0, {}, {}, []);
 //# sourceMappingURL=app.component.ngfactory.js.map

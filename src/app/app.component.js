@@ -7,8 +7,16 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 import { Component } from '@angular/core';
 var AppComponent = (function () {
     function AppComponent() {
-        this.name = 'Angular';
+        this.charCount = 0;
+        this.projectTitle = 'Build a Website';
+        this.projectStatusCode = 'o';
     }
+    AppComponent.prototype.updateCharCount = function (inputText) {
+        this.charCount = inputText.length;
+    };
+    AppComponent.prototype.updateProjectStatus = function (statusCode) {
+        this.projectStatusCode = statusCode;
+    };
     AppComponent = __decorate([
         Component({
             selector: 'my-app',
